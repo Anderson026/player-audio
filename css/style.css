@@ -1,9 +1,10 @@
+/* configurações globais */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+/* cor, tamanho e alinhamento da página */
 body {
   width: 100%;
   height: 100%;
@@ -14,7 +15,7 @@ body {
   background-color: rgb(45, 34, 116);
   color: white;
 }
-
+/* alinhamento do conteúdo principal */
 .container {
   display: flex;
   flex-direction: column;
@@ -22,17 +23,18 @@ body {
   align-items: center;
   margin-top: 25%;
 }
-
-progress {
-  width: 400px;
+/* alinhamento do título */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
 }
-
+/* tamanho dos controles */
 .controles {
   width: 400px;
   height: 50px;
  
 }
-
+/* altura dos ícones do player */
 .btn {
   height: 100%;
 }

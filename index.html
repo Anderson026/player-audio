@@ -8,15 +8,15 @@
   <title>Player Audio</title>
 </head>
 <body>
+  <!-- container principal -->
   <div class="container">
+    <!-- título -->
     <h1>Criando um player de audio com HTML, CSS E JS</h1>
+    <!-- música de teste -->
     <audio id="audio" ontimeupdate="timeUpdate()">
       <source src="./audio/04. Ich Will.mp3" type="audio/mp3">
     </audio>
-    <span class="progress_bar">
-      <progress id="time_bar" class="progress" value="0" max="100" onclick="progress_bar()"></progress>
-      <div class="time">00:00</div>
-    </span>
+    <!-- imagens dos ícones dos controles -->
     <div class="controles">
       <img title="Play" onclick="play()" src="./assets/play.svg" alt="imagem do play" class="btn">
       <img title="Pause" onclick="pause()" src="./assets/pause.svg" alt="imagem do pause" class="btn">
